@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wordpress Theme</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+        <script src="https://kit.fontawesome.com/57deb2649c.js?fbclid=IwAR1no_pEvDegfjG_DRbgkihmnUoHlYrEX8iG9xLxRLxD6zUwC6kREjbOY3Y"> crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    </head>
+    <body>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <header>
+            <nav class="container-fluid navbar navbar-expand-lg navbar-light position-fixed">
+                <div class="container">
+                    <div class="nav-item group-left d-flex">
+                        <li class="me-3"><a href="#">Home</a></li>
+                        <li class="me-3"><a href="#collection">Collection</a></li>
+                    </div>
+                    <div class="navbar-brand group-center">
+                        <li class="fs-25"><a href="#">Photography</a></li>
+                    </div>
+                    <div class="nav-item group-right d-flex">
+                        <li class="me-3"><a href="#about">About Us</a></li>
+                        <li class="me-3"><a href="#contact">Contact</a></li>
+                    </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <div class="container-fluid hero p-0 img-fluid2" id="hero">
+                <div class="selections d-none d-md-flex">
+                    <div class="row text-center">
+                        <div class="col-2" style="width: 150px;
+                        height: 150px;
+                        margin-left: 1rem;
+                        border-radius: 5px;
+                        cursor: pointer;">
+                            <div class="w-50 float-end mt-5"><img src="assets/img/curly-arrow.png" class="w-100"> </div>
+                            <h5>Explore Categories</h5>
+                        </div>
+                        <div class="selection bg-white1" id="1">
+                            <h6>Street <br>Photography</h6>
+                        </div>
+                        <div class=" selection bg-white1" id="2">
+                            <h6>Wildlife</h6>
+                        </div>
+                        <div class=" selection bg-white1" id="3">
+                            <h6>Adventure</h6>
+                        </div>
+                        <div class=" selection bg-white1" id="4">
+                            <h6>Landscape</h6>
+                        </div>
+                        <div class=" selection bg-white1" id="5">
+                            <h6>Portrait</h6>
+                        </div>
+                        <div class=" selection bg-white1" id="6">
+                            <h6>Events</h6>
+                        </div>
+                        <div class=" selection bg-white1" id="7">
+                            <h6>Special</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="parallax">
+                <div class="container-fluid">
+                        <h3>When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence</h3>
+                </div>
+            </section>
+
+            <section class="gallery text-center container mt-4">
+                <div class="title  fs-25">Favorite Clicks</div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item ">
+                        <div class="image"><img src="assets/img/1.jpeg" class="w-100"></div>
+                            <div class="about">
+                               <h7>High Hopes</h7>
+                               <p>San Francisco</p>
+                            </div>
+                    </div>
+                    <div class="item ">
+                        <div class="image"><img src="assets/img/2.jpg" class="w-100"></div>
+                            <div class="about">
+                               <h7>Waterfall</h7>
+                               <p>San Francisco</p>
+                            </div>
+                    </div>
+                    <div class="item ">
+                        <div class="image"><img src="assets/img/3.jpg" class="w-100"></div>
+                            <div class="about">
+                               <h7>Mother Love</h7>
+                               <p>San Francisco</p>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="image"><img src="assets/img/5.jpeg" class="w-100"></div>
+                            <div class="about">
+                               <h7>Autumn</h7>
+                               <p>San Francisco</p>
+                            </div>
+                    </div>
+                </div>
+                <a href="#" class="text-center black mt-4">View All <i class="fa fa-arrow-right"></i></a>
+                <script>
+                    $('.owl-carousel').owlCarousel({
+            loop:true,
+            autoplay:6000,
+            margin:10,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true,
+                },
+                600:{
+                    items:3,
+                    nav:true
+                },
+                1000:{
+                    items:3,
+                    nav:true,
+                }
+            }
+            })
+                </script>
+            </section>
+
+            <section class="banner text-center mt-5" id="collection">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="image">
+                            <img src="assets/img/sq-1.jfif" class="w-100">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="content">
+                            <p >ONLINE GALLERY</p>
+                            <h5 class="mt-5 fs-25 fw-7">The Collection</h5>
+                            <p class="fs-18">Explore various categories of photographs from all over the globe.</p>
+                            <div class="button mt-5" href="#">EXPLORE</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio container" id="about">
+                <div class="row">
+                    <div class="col-6 port-2 mt-5"></div>
+                    <div class="col-6 port-1 mt-5">
+                        <div class="quote-image">
+                            <img src="assets/img/quote.png" class=" w-100">
+                        </div>
+                        <p class="fs-18">Photography for me is not looking, it’s feeling. If you can’t feel what you’re looking at, then you’re never going to get others to feel anything when they look at your pictures.<br><br>It’s one thing to make a picture of what a person looks like, it’s another thing to make a portrait of who they are. <br><br> <span class="fw-7">- Paul Caponigro</span></p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="parallax2 img-fluid3 text-center">
+               
+                <div class="owl-carousel owl-theme mt-2">
+                    <div class="item col-white ">
+                        <h3 class="py-4 fs-14 col-pri">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </h3>
+                        <p>"I love partnering with them. They do a fabulous job."</p>
+                        <h6>Aashish Pandey<br><b class="col-pri">Be Creative</b></h6>
+                    </div>
+
+                    <div class="item col-white ">
+                        <h3 class="py-4 fs-14 ">
+                            <i class="col-pri fas fa-star"></i>
+                            <i class="col-pri fas fa-star"></i>
+                            <i class="col-pri fas fa-star"></i>
+                            <i class="col-pri fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </h3>
+                        <p>“They’re the best value out there, and they deliver a great product.”</p>
+                        <h6>Co-Founder & CCO<br><b class="col-pri">ClearShift</b></h6>
+                    </div>
+
+                    <div class="item col-white ">
+                        <h3 class="py-4 fs-14 col-pri">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </h3>
+                        <p>"They genuinely care and want to do a great job."</p>
+                        <h6>Directors<br><b class="col-pri">Be Creative</b></h6>
+                    </div>
+                </div>
+                <p class="py-4 "><a class="col-white" href="#">Browse Reviews <i class="fa fa-arrow-right"></i></a></p>
+                <script>
+                    $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay:3000,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true,
+                },
+                600:{
+                    items:1,
+                    nav:true
+                },
+                1000:{
+                    items:1,
+                    nav:true,
+                }
+            }
+            })
+                </script>
+            </section>
+
+            <section class="contact container mt-5" id="contact">
+                <div class="row">
+                    <div class="col-6  mt-4">
+                        <h3 class="fw-7 position-relative mb-5">Contact</h3>
+                        <p>John Doe</p>
+                        <p>Photographer, Awesome Company</p>
+                        <p>+01-00248932, info@awesomecompany.com</p>
+                        <p>Hacker Way, California</p>
+                    </div>
+                    <div class="maps col-6">
+                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45397168.33832266!2d-113.99322684460711!3d46.01471981523769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbc96de8dc419%3A0x64979e438bf4e3a5!2sFacebook!5e0!3m2!1sen!2snp!4v1632041138240!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row footer">
+                    <div class="col-md-4">
+                        <ul>
+                            <li class="my-4">Services</li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter col-md-4">
+                        <ul>
+                            <li class="my-4">About</li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Online Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class=" col-md-4">
+
+                        <ul>
+                            <li>Newsletter</li>
+                            <div class="d-flex"><input class="w-100 p-1" type="email" name="email" placeholder="Your Email"><div class="button">Subscribe</div></div>
+                            <li class="my-5">Need Help?<br><a href="#">Contact Support</a></li>
+                            <li class="my-5">Follow Us<br>
+                                <a class="mx-1" href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a class="mx-1" href="#"><i class="fab fa-instagram-square"></i></a>
+                                <a class="mx-1" href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a class="mx-1" href="#"><i class="fab fa-pinterest-square"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <div class="col"><p class="mt-4">&copy Awesome Company 2020 | All Right Reserved</p></div>
+                    <div class="d-flex mt-4">
+                        <a class="mx-1 col-white" href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a class="mx-1 col-white" href="#"><i class="fab fa-instagram-square"></i></a>
+                        <a class="mx-1 col-white" href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a class="mx-1 col-white" href="#"><i class="fab fa-pinterest-square"></i></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="container-fluid" id="particles-js"></div>
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+        <script src="assets/js/index.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    transition: 0.4;
+}
+a:hover{
+    color:rgb(235, 213, 88);
+}
+nav{
+    height: 60px;
+    background-color: white;
+    z-index: 9999999999;
+}
+.navbar-brand li a, .nav-item li a{
+    color: black;
+}
+.hero{
+    background: url('../img/hero2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+}
+.selections{
+    position: absolute;
+    bottom: 0;
+    z-index: 99999;
+    padding: 1rem;
+    margin: auto;
+}
+.selection{
+    width: 150px;
+    height: 150px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.selection h6{
+    margin-top: 70px;
+}
+.parallax{
+    background-color: #cfc5c4;
+    color: black;
+    text-align: center;
+    height: 45vh;
+
+}
+.parallax h3{
+    padding-top: 110px;
+    font-size: 25px;
+}
+
+.gallery .owl-carousel .item{
+    max-height: 60vh !important;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+}
+.gallery .owl-carousel .item .image{
+    width: 60%;
+    height: 70%;
+    margin: auto;
+}
+
+.gallery .owl-carousel .item .about{
+    padding: 16px;
+}
+.banner{
+    bottom: 0;
+    background-color: rgb(236, 245, 242);
+}
+.banner .image img{
+    border:50px solid rgb(235, 213, 88);
+}
+.content{
+  max-height: 70%;
+  margin-top: 15%;
+}
+.button{
+    background-color: rgb(235, 213, 88);
+    color: rgb(236, 245, 242);
+    border: 2px solid transparent;
+    font-weight: 700;
+    padding: 14px 3px;
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+    transition: 0.5s;
+}
+.button:hover{
+    border: 2px solid rgb(235, 213, 88);
+    color: rgb(235, 213, 88);
+    background-color: transparent;
+}
+.port-2{
+    background: url('../img/png.png');
+    height: 90vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.parallax2{
+    background: url('../img/hero3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote-image{
+    width: 50px;
+    float: right;
+}
+.port-1 p{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 80px;
+}
+
+#about{
+    height: 100vh;
+    margin-top: 4rem;
+}
+footer{
+    background-color: rgb(43, 43, 43);
+    height: 90vh;
+}
+.contact{
+    height: 60vh;
+    margin: auto;
+    vertical-align: middle;
+}
+.contact .maps iframe{
+    height: 50vh;
+}
+.contact h3:before{
+content: '';
+display: block;
+height: 2px;
+width: 40px;
+background-color: #080808;
+position: absolute;
+bottom: -18px;
+left: 0;
+}
+footer{
+    color: white;
+    width: 100%;
+    overflow:hidden;
+}
+#particles-js{
+    margin-top: -40%;
+
+    z-index: 1 !important;
+}
+.footer a{
+    color: white;
+    font-weight: 200;
+    padding-top: 3rem;
+}
+.footer ul li{
+    margin-top: 1rem;
+}
+.footer ul{
+    margin-top: 80px;
+}
+.owl-carousel{
+    position: relative;
+    transition: 0.5s;
+}
+
+.owl-prev{
+    position: absolute;
+    transition: 0.5s;
+    top:20vh;
+    left: 20px;
+
+}
+.owl-dots span{
+    background-color: rgb(235, 213, 88);
+}
+.owl-next{
+    position: absolute;
+    transition: 0.5s;
+    
+    top:20vh;
+    right: 20px;
+
+}
+.owl-next span, .owl-prev span{
+    font-size: 3rem;
+}
+
