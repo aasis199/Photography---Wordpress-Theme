@@ -4,22 +4,16 @@ $(document).ready(function(){
 
 
 var hero = document.getElementById('hero')
-var x = document.getElementsByClassName("selection")
-var a = x.id;
-console.log(a)
-for(var i=0; i< 7; i++) {
-    var id = i;
-    var element = document.getElementById(id);
+// var x = document.getElementsByClassName("selection")
 
-    // work with element
-  }
-  console.log(id)
+// var a = document.getElementsByClassName("selection")
 
+$('.selection').mouseover(function() {
+    // console.log(this.id);
+    var a = (this.id);
+    hero.style.backgroundImage = "url(assets/img/hero"+a+".jpg";
+  });
 
-function swapImage(){
-    alert(i)
-    hero.style.backgroundImage = "url(/img/hero"+a+".jpg";
-}
 
 
 
